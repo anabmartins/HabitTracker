@@ -1,1 +1,1 @@
-Uma plataforma para gerenciar seus hábitos diários.
+# Uma plataforma para gerenciar seus hábitos diários.
