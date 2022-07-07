@@ -1,1 +1,1 @@
-# Gerencie seus hábitos diários com Rabbit.
+# Gerencie seus hábitos diários com Rabbit
