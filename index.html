@@ -7,26 +7,38 @@
     <title>RABBIT</title>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
 </head>
 <body>
+    <nav class="navbar sticky-bottom">
     <div class="col-sm" style="text-align: center; padding: 10px;">
-    <h1>RABBIT</h1>
+    <h1>RABBIT</h1> 
+    <img src="./img/icon.png" alt="icon" style="height: 100px;">
     <h2>Habit Tracker</h2>
 </div>
+</nav>
     <div class="container">
                  <table class="table table-hover">
                   <thead>
                       <tr>
                           <th scope="col">Day</th>
                           <th scope="col">01</th>
+                          <th scope="col">02</th>
                       </tr>
                   </thead>
                   <tbody id="table-linha">
-                      <td><strong>Habit</strong></td>
-                      <td>1</td>
+                      <td id="title"><strong>Habit</strong></td>
+                      <td id="hab">1</td>
+                      <td id="hab">2</td>
                   </tbody>
                   <tbody>
                       <td>1. Academia</td>
+                      <td>X</td>
+                      <td></td>
+                  </tbody>
+                  <tbody>
+                      <td>2. Ler</td>
+                      <td>X</td>
                       <td>X</td>
                   </tbody>
               </table>
